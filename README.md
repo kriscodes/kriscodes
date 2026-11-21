@@ -12,7 +12,7 @@ My work spans React, TypeScript, Next.js, shared UI systems, and the API, authen
 | **Toolbox / Prompt Builder** | A React tool with reusable project context, a browser-local prompt library, and a separate AI generation API. | [Repository](https://github.com/kriscodes/toolbox) · [Live tool](https://toolbox.kristiansalmeron.com/tools/prompt-builder/) |
 | **Engineering Lab** | A public notebook for controlled frontend investigations, currently publishing a proposed study of PDF rendering progress. No benchmark findings have been published. | [Repository](https://github.com/kriscodes/lab) · [Live lab](https://lab.kristiansalmeron.com/) |
 
-Related work in progress: [PDF Rendering Benchmark](https://github.com/kriscodes/pdf-rendering-benchmark) is separate infrastructure for investigations into PDF structure, delivery, and rendering. Corpus generation is in development; a browser timing runner and performance results are not yet available.
+Related work in progress: My [PDF Rendering Benchmark](https://github.com/kriscodes/pdf-rendering-benchmark) now generates test PDFs and measures how long PDF.js takes to render the first page in Chromium. I'm checking how repeatable those timings are before drawing any conclusions.
 
 For a closer look at my professional work, see the [document-rendering performance case study](https://kristiansalmeron.com/work/gen-ui/).
 
